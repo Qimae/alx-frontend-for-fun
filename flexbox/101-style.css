@@ -1,0 +1,55 @@
+/* Timemachine css */
+/* variables */
+:root {
+    --font-size-box: 1rem;
+    --box-height: 2.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    aspect-ratio: 1.5;
+    justify-content: center;
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(92, 201, 92);
+    height: calc(var(--box-height));
+    font-size: calc(var(--font-size-box));
+}
+
+.box2 {
+    background-color: rgb(80, 130, 223);
+    height: calc(var(--box-height) * 1.5);
+    font-size: calc(var(--font-size-box) * 1.5);
+
+}
+
+.box3 {
+    background-color: rgb(52, 55, 77);
+    height: calc(var(--box-height) * 3.5);
+    font-size: calc(var(--font-size-box) * 4.5);
+
+}
+
+.box4 {
+    background-color: rgb(185, 53, 202);
+    height: calc(var(--box-height) * 1.5);
+    font-size: calc(var(--font-size-box) * 1.5);
+
+}
+
+.box5 {
+    background-color: rgb(214, 101, 9);
+    height: calc(var(--box-height));
+    font-size: calc(var(--font-size-box));
+
+}
